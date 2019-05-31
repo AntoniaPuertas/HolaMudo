@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hola Mudo</string>
+    <string name="entrar">Entrar</string>
+    <string name="email">Introduce email</string>
+    <string name="password">Password</string>
+    <string name="saludo">Hola</string>
+    <string name="recordar">Recordar datos</string>
+    <string name="toast">Mostrar Toast</string>
+    <string name="snack">Mostrar Snackbar</string>
+    <string name="notificaciones">Notificaciones</string>
+</resources>
