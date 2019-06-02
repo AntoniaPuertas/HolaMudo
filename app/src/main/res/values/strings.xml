@@ -8,4 +8,17 @@
     <string name="toast">Mostrar Toast</string>
     <string name="snack">Mostrar Snackbar</string>
     <string name="notificaciones">Notificaciones</string>
+    <string name="listado">Listado</string>
+    <string name="listado_notas">Listado Notas</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="web">Web</string>
+    <string name="mini_calculadora">Mini Calculadora</string>
+    <string name="sumar">Sumar</string>
+    <string name="restar">Restar</string>
+    <string name="multiplicar">Multiplicar</string>
+    <string name="dividir">Dividir</string>
+    <string name="introduce_url">Introduce Url</string>
+    <string name="ir_web">Ir Web</string>
+    <string name="https">https://</string>
+    <string name="calcular">Calcular</string>
 </resources>

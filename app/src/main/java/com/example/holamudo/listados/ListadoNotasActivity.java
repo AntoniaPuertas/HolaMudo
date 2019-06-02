@@ -13,6 +13,8 @@ public class ListadoNotasActivity extends AppCompatActivity {
 
     ListView listViewNotas;
     ArrayList<Nota> listaNotas;
+
+    //crea un objeto de la clase que hemos creado para mostrar cada nota
     ListadoNotasAdapter listadoNotasAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ public class ListadoNotasActivity extends AppCompatActivity {
 
         listViewNotas = findViewById(R.id.lstNotas);
 
+        //Creamos una lista de notas
         listaNotas = new ArrayList<>();
 
         listaNotas.add(new Nota("Dar un paseo", "Importante"));
@@ -36,7 +39,10 @@ public class ListadoNotasActivity extends AppCompatActivity {
         listaNotas.add(new Nota("Comprar pan", "Normal"));
         listaNotas.add(new Nota("Cortarme el pelo", "urgente"));
 
+        //llamamos al constructor del adapter pasándole el contexto y los datos
         listadoNotasAdapter = new ListadoNotasAdapter(this, listaNotas);
+
+        //Vinculamos el adapter al listview
         listViewNotas.setAdapter(listadoNotasAdapter);
     }
 }

@@ -35,6 +35,14 @@ public class ListadoNotasAdapter extends ArrayAdapter<Nota> {
         categorias = Nota.getCategorias();
     }
 
+    /**
+     * Este método se ejecuta para cada elemento de listaNotas y devuelve
+     * la vista item_nota montada con los datos de la nota correspondiente
+     * @param position
+     * @param convertView
+     * @param parent
+     * @return
+     */
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Recojo los datos para este item

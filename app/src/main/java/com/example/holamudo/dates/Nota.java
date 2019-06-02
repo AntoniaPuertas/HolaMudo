@@ -2,6 +2,10 @@ package com.example.holamudo.dates;
 
 import java.util.Calendar;
 
+/**
+ * Clase Nota que vamos a utilizar para mostrar un listado de notas
+ * en un listview
+ */
 public class Nota {
     private Calendar fecha;
     private String texto;

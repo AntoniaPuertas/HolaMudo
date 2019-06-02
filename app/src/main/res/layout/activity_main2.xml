@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".activitys.MenuActivity">
 
     <TextView
         android:id="@+id/txtSaludo"
@@ -35,7 +35,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Button"
+        android:text="@string/listado"
         app:layout_constraintEnd_toEndOf="@+id/btnNotificaciones"
         app:layout_constraintStart_toStartOf="@+id/btnNotificaciones"
         app:layout_constraintTop_toBottomOf="@+id/btnNotificaciones" />
@@ -45,7 +45,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Button"
+        android:text="@string/listado_notas"
         app:layout_constraintEnd_toEndOf="@+id/btnListado"
         app:layout_constraintStart_toStartOf="@+id/btnListado"
         app:layout_constraintTop_toBottomOf="@+id/btnListado" />
@@ -55,7 +55,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Button"
+        android:text="@string/calculadora"
         app:layout_constraintEnd_toEndOf="@+id/btnListadoNotas"
         app:layout_constraintStart_toStartOf="@+id/btnListadoNotas"
         app:layout_constraintTop_toBottomOf="@+id/btnListadoNotas" />
@@ -65,7 +65,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Button"
+        android:text="@string/web"
         app:layout_constraintEnd_toEndOf="@+id/btnCalculadora"
         app:layout_constraintStart_toStartOf="@+id/btnCalculadora"
         app:layout_constraintTop_toBottomOf="@+id/btnCalculadora" />
